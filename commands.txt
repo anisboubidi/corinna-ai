@@ -1,0 +1,2 @@
+bunx --bun shadcn-ui@latest init
+30.45
