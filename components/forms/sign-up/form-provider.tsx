@@ -1,12 +1,12 @@
-import * as React from 'react';
+import { AuthContextProvider } from '@/src/context/use-auth-context'
+import React from 'react'
 
-interface IAppProps {
+type Props = {children:React.ReactNode}
+
+
+const SignUpFormProvider = ({children}: Props) => {
+  return <AuthContextProvider>
+    <FormPrvider></FormPrvider>
+  </AuthContextProvider>
+  
 }
-
-export const App: React.FC<IAppProps> = (props) => {
-    return (
-      <div>
-        
-      </div>
-    );
-};

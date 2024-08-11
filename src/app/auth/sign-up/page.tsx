@@ -1,7 +1,7 @@
 import { currentUser } from '@clerk/nextjs';
 import { redirect } from 'next/navigation';
 import React from 'react';
-
+import {FormPrivider} from 'react-hooks-form'
 type Props = {
   children: React.ReactNode;
 };

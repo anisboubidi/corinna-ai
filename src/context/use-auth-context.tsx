@@ -1,14 +1,27 @@
-import React from 'react'
+import { initialize } from 'next/dist/server/lib/render-server'
+import React, { Children, useState } from 'react'
 
 type InitialValuesProps = {
     currentStep : number
-    setCurrentStep : React.Dispatch<React
+    setCurrentStep : React.Dispatch<React.SetStateAction<number>>
 }
 
-const use-auth-context = (props: Props) => {
-  return (
-    <div>use-auth-context</div>
-  )
+const InitialValues :InitialValuesProps =  {
+ currentStep:1,
+ setCurrentStep:()=>undefined
 }
 
-export default use-auth-context
+const authContext =React.createContext(InitialValues)
+const{Provider}=authContext
+
+export const AuthContextProvider = ({children,}:{children:React.ReactNode})=>{
+    const [currentStep,setCurrentStep]= useState<number>(
+        InitialValues.currentStep
+    )
+    const values ={currentStep,setCurrentStep}
+    return <Provider value={values}>{children}</Provider>
+}
+export const useAuthContextHook=()=> {
+    const state = React.useContext(authContext)
+    return state
+}
