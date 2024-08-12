@@ -1,3 +1,4 @@
+'use client'
 import { useState } from "react"
 import { UserRegistrationProps, 
          UserRegistrationSchema } from "@/src/schemas/auth.schema"
