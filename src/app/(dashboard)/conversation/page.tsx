@@ -1,8 +1,8 @@
-import { onGetAllAccountDomains } from '@/actions/settings'
-import ConversationMenu from '@/components/conversations'
-import Messenger from '@/components/conversations/messenger'
-import InfoBar from '@/components/infobar'
-import { Separator } from '@/components/ui/separator'
+import { onGetAllAccountDomains } from '@/src/actions/settings'
+import ConversationMenu from '@/src/components/conversations'
+import Messenger from '@/src/components/conversations/messenger'
+import InfoBar from '@/src/components/infobar'
+import { Separator } from '@/src/components/ui/separator'
 import React from 'react'
 
 type Props = {}

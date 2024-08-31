@@ -5,7 +5,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@/components/ui/sheet'
+} from '@/src/components/ui/sheet'
 
 type SideSheetProps = {
   trigger: React.ReactNode

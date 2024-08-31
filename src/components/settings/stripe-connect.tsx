@@ -2,7 +2,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { Loader } from '../loader'
-import { useStripe } from '@/hooks/billing/use-billing'
+import { useStripe } from '@/src/hooks/billing/use-billing'
 
 type StripeConnectProps = {
   connected: boolean

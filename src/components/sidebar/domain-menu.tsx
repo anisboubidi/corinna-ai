@@ -1,5 +1,5 @@
-import { useDomain } from '@/hooks/sidebar/use-domain'
-import { cn } from '@/lib/utils'
+import { useDomain } from '@/src/hooks/sidebar/use-domain'
+import { cn } from '@/src/lib/utils'
 import React from 'react'
 import AppDrawer from '../drawer'
 import { Plus } from 'lucide-react'

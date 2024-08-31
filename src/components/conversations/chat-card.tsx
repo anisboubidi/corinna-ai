@@ -1,10 +1,10 @@
 'use client'
-import { useChatTime } from '@/hooks/conversation/use-conversation'
+import { useChatTime } from '@/src/hooks/conversation/use-conversation'
 import React from 'react'
 import { Card, CardContent, CardDescription } from '../ui/card'
 import { Avatar, AvatarFallback } from '../ui/avatar'
 import { User } from 'lucide-react'
-import { UrgentIcon } from '@/icons/urgent-icon'
+import { UrgentIcon } from '@/src/icons/urgent-icon'
 
 type Props = {
   title: string

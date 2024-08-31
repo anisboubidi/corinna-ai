@@ -1,19 +1,19 @@
-import { getUserAppointments } from '@/actions/appointment'
+import { getUserAppointments } from '@/src/actions/appointment'
 import {
   getUserBalance,
   getUserClients,
   getUserPlanInfo,
   getUserTotalProductPrices,
   getUserTransactions,
-} from '@/actions/dashboard'
-import DashboardCard from '@/components/dashboard/cards'
-import { PlanUsage } from '@/components/dashboard/plan-usage'
-import InfoBar from '@/components/infobar'
-import { Separator } from '@/components/ui/separator'
-import CalIcon from '@/icons/cal-icon'
-import EmailIcon from '@/icons/email-icon'
-import PersonIcon from '@/icons/person-icon'
-import { TransactionsIcon } from '@/icons/transactions-icon'
+} from '@/src/actions/dashboard'
+import DashboardCard from '@/src/components/dashboard/cards'
+import { PlanUsage } from '@/src/components/dashboard/plan-usage'
+import InfoBar from '@/src/components/infobar'
+import { Separator } from '@/src/components/ui/separator'
+import CalIcon from '@/src/icons/cal-icon'
+import EmailIcon from '@/src/icons/email-icon'
+import PersonIcon from '@/src/icons/person-icon'
+import { TransactionsIcon } from '@/src/icons/transactions-icon'
 import { DollarSign } from 'lucide-react'
 import React from 'react'
 

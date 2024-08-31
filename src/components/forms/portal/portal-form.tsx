@@ -1,6 +1,6 @@
 'use client'
-import { usePortal } from '@/hooks/portal/use-portal'
-import { cn } from '@/lib/utils'
+import { usePortal } from '@/src/hooks/portal/use-portal'
+import { cn } from '@/src/lib/utils'
 import React, { useEffect } from 'react'
 import PortalSteps from './portal-steps'
 

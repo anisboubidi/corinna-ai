@@ -4,8 +4,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table'
-import { cn } from '@/lib/utils'
+} from '@/src/components/ui/table'
+import { cn } from '@/src/lib/utils'
 
 type DataTableProps = {
   headers: string[]

@@ -1,16 +1,16 @@
 'use client'
-import Section from '@/components/section-label'
+import Section from '@/src/components/section-label'
 import {
   Card,
   CardContent,
   CardDescription,
   CardTitle,
-} from '@/components/ui/card'
-import { useFilterQuestions, useHelpDesk } from '@/hooks/settings/use-settings'
+} from '@/src/components/ui/card'
+import { useFilterQuestions, useHelpDesk } from '@/src/hooks/settings/use-settings'
 import React from 'react'
 import FormGenerator from '../form-generator'
-import { Button } from '@/components/ui/button'
-import { Loader } from '@/components/loader'
+import { Button } from '@/src/components/ui/button'
+import { Loader } from '@/src/components/loader'
 
 type Props = {
   id: string

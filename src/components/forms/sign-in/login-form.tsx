@@ -2,7 +2,7 @@
 import React from 'react'
 import { useFormContext } from 'react-hook-form'
 import FormGenerator from '../form-generator'
-import { USER_LOGIN_FORM } from '@/constants/forms'
+import { USER_LOGIN_FORM } from '@/src/constants/forms'
 
 type Props = {}
 

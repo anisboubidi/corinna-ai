@@ -1,4 +1,4 @@
-import { USER_REGISTRATION_FORM } from '@/constants/forms'
+import { USER_REGISTRATION_FORM } from '@/src/constants/forms'
 import React from 'react'
 import { FieldErrors, FieldValues, UseFormRegister } from 'react-hook-form'
 import FormGenerator from '../form-generator'

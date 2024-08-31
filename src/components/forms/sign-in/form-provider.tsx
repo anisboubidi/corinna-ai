@@ -1,7 +1,7 @@
 'use client'
-import { Loader } from '@/components/loader'
-import { AuthContextProvider } from '@/context/use-auth-context'
-import { useSignInForm } from '@/hooks/sign-in/use-sign-in'
+import { Loader } from '@/src/components/loader'
+import { AuthContextProvider } from '@/src/context/use-auth-context'
+import { useSignInForm } from '@/src/hooks/sign-in/use-sign-in'
 import React from 'react'
 import { FormProvider } from 'react-hook-form'
 

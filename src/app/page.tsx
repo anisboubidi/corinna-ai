@@ -1,6 +1,6 @@
 import { onGetBlogPosts } from '@/src/actions/landing'
 import NavBar from '@/src/components/navbar'
-import { Button } from '@/components/ui/button'
+import { Button } from '@/src/components/ui/button'
 import {
   Card,
   CardContent,

@@ -1,6 +1,6 @@
 'use client'
-import useSideBar from '@/context/use-sidebar'
-import { cn } from '@/lib/utils'
+import useSideBar from '@/src/context/use-sidebar'
+import { cn } from '@/src/lib/utils'
 import React from 'react'
 import MaxMenu from './maximized-menu'
 import { MinMenu } from './minimized-menu'

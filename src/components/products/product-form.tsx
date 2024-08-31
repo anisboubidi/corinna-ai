@@ -2,16 +2,16 @@
 
 import React from 'react'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@/src/components/ui/button'
 
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
+import { Input } from '@/src/components/ui/input'
+import { Label } from '@/src/components/ui/label'
 
 import { ErrorMessage } from '@hookform/error-message'
-import { Loader } from '@/components/loader'
+import { Loader } from '@/src/components/loader'
 import FormGenerator from '../forms/form-generator'
 import { UploadIcon } from 'lucide-react'
-import { useProducts } from '@/hooks/settings/use-settings'
+import { useProducts } from '@/src/hooks/settings/use-settings'
 
 type CreateProductFormProps = {
   id: string

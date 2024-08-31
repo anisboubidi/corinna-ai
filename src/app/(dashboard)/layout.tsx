@@ -1,6 +1,6 @@
-import { onLoginUser } from '@/actions/auth'
-import SideBar from '@/components/sidebar'
-import { ChatProvider } from '@/context/user-chat-context'
+import { onLoginUser } from '@/src/actions/auth'
+import SideBar from '@/src/components/sidebar'
+import { ChatProvider } from '@/src/context/user-chat-context'
 import React from 'react'
 
 type Props = {

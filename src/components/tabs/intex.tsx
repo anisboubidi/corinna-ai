@@ -1,6 +1,6 @@
 import React from 'react'
-import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { cn } from '@/lib/utils'
+import { Tabs, TabsList, TabsTrigger } from '@/src/components/ui/tabs'
+import { cn } from '@/src/lib/utils'
 
 type Props = {
   triggers: {

@@ -1,8 +1,8 @@
 import React from 'react'
 import { FieldErrors, FieldValues, UseFormRegister } from 'react-hook-form'
 import FormGenerator from '../form-generator'
-import { Button } from '@/components/ui/button'
-import { Loader } from '@/components/loader'
+import { Button } from '@/src/components/ui/button'
+import { Loader } from '@/src/components/loader'
 
 type Props = {
   questions: {

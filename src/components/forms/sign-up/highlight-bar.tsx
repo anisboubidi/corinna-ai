@@ -1,6 +1,6 @@
 'use client'
-import { useAuthContextHook } from '@/context/use-auth-context'
-import { cn } from '@/lib/utils'
+import { useAuthContextHook } from '@/src/context/use-auth-context'
+import { cn } from '@/src/lib/utils'
 import React from 'react'
 
 type Props = {}

@@ -4,7 +4,7 @@ import { CardDescription } from '../ui/card'
 import { Loader } from '../loader'
 import { PaymentElement } from '@stripe/react-stripe-js'
 import { Button } from '../ui/button'
-import { useCompletePayment } from '@/hooks/billing/use-billing'
+import { useCompletePayment } from '@/src/hooks/billing/use-billing'
 
 
 type PaymentFormProps = {

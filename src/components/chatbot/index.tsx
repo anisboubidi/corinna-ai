@@ -1,10 +1,10 @@
 'use client'
-import { useChatBot } from '@/hooks/chatbot/use-chatbot'
+import { useChatBot } from '@/src/hooks/chatbot/use-chatbot'
 import React from 'react'
 import { BotWindow } from './window'
-import { cn } from '@/lib/utils'
+import { cn } from '@/src/lib/utils'
 import Image from 'next/image'
-import { BotIcon } from '@/icons/bot-icon'
+import { BotIcon } from '@/src/icons/bot-icon'
 
 type Props = {}
 

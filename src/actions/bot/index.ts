@@ -1,7 +1,7 @@
 'use server'
 
 import { client } from '@/src/lib/prisma'
-import { extractEmailsFromString, extractURLfromString } from '@/lib/utils'
+import { extractEmailsFromString, extractURLfromString } from '@/src/lib/utils'
 import { onRealTimeChat } from '../conversation'
 import { clerkClient } from '@clerk/nextjs'
 import { onMailer } from '../mailer'

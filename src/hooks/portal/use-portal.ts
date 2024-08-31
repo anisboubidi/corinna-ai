@@ -2,8 +2,8 @@ import {
   onBookNewAppointment,
   onDomainCustomerResponses,
   saveAnswers,
-} from '@/actions/appointment'
-import { useToast } from '@/components/ui/use-toast'
+} from '@/src/actions/appointment'
+import { useToast } from '@/src/components/ui/use-toast'
 import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 

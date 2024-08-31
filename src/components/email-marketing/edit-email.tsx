@@ -9,7 +9,7 @@ import {
   UseFormRegister,
   UseFormSetValue,
 } from 'react-hook-form'
-import { useEditEmail } from '@/hooks/email-marketing/use-marketing'
+import { useEditEmail } from '@/src/hooks/email-marketing/use-marketing'
 import FormGenerator from '../forms/form-generator'
 
 type EditEmailProps = {

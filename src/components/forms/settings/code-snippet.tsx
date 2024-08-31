@@ -1,6 +1,6 @@
 'use client'
-import Section from '@/components/section-label'
-import { useToast } from '@/components/ui/use-toast'
+import Section from '@/src/components/section-label'
+import { useToast } from '@/src/components/ui/use-toast'
 import { Copy } from 'lucide-react'
 import React from 'react'
 

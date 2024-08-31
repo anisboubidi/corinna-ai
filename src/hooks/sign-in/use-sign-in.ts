@@ -1,5 +1,5 @@
-import { useToast } from '@/components/ui/use-toast'
-import { UserLoginProps, UserLoginSchema } from '@/schemas/auth.schema'
+import { useToast } from '@/src/components/ui/use-toast'
+import { UserLoginProps, UserLoginSchema } from '@/src/schemas/auth.schema'
 import { useSignIn } from '@clerk/nextjs'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useRouter } from 'next/navigation'

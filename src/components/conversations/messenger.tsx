@@ -1,5 +1,5 @@
 'use client'
-import { useChatWindow } from '@/hooks/conversation/use-conversation'
+import { useChatWindow } from '@/src/hooks/conversation/use-conversation'
 import React from 'react'
 import { Loader } from '../loader'
 import Bubble from '../chatbot/bubble'

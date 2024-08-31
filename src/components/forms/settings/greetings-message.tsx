@@ -1,4 +1,4 @@
-import Section from '@/components/section-label'
+import Section from '@/src/components/section-label'
 import React from 'react'
 import { FieldErrors, FieldValues, UseFormRegister } from 'react-hook-form'
 import FormGenerator from '../form-generator'

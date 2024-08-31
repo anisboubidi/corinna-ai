@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 
-import { Progress } from '@/components/ui/progress'
+import { Progress } from '@/src/components/ui/progress'
 
 type ProgressBarProps = {
   label: string

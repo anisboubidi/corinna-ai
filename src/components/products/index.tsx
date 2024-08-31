@@ -7,7 +7,7 @@ import { TabsContent } from '../ui/tabs'
 import { DataTable } from '../table'
 import { TableCell, TableRow } from '../ui/table'
 import Image from 'next/image'
-import { getMonthName } from '@/lib/utils'
+import { getMonthName } from '@/src/lib/utils'
 
 type Props = {
   products: {

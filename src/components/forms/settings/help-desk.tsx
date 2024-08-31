@@ -1,17 +1,17 @@
 'use client'
 import React from 'react'
-import { useHelpDesk } from '@/hooks/settings/use-settings'
+import { useHelpDesk } from '@/src/hooks/settings/use-settings'
 import {
   Card,
   CardContent,
   CardDescription,
   CardTitle,
-} from '@/components/ui/card'
-import Section from '@/components/section-label'
+} from '@/src/components/ui/card'
+import Section from '@/src/components/section-label'
 import FormGenerator from '../form-generator'
-import { Button } from '@/components/ui/button'
-import { Loader } from '@/components/loader'
-import Accordion from '@/components/accordian'
+import { Button } from '@/src/components/ui/button'
+import { Loader } from '@/src/components/loader'
+import Accordion from '@/src/components/accordian'
 
 type Props = {
   id: string

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Label } from '../ui/label'
-import { cn } from '@/lib/utils'
+import { cn } from '@/src/lib/utils'
 import { Card, CardContent, CardDescription, CardTitle } from '../ui/card'
 import { Input } from '../ui/input'
 

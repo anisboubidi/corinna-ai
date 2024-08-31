@@ -1,5 +1,5 @@
 'use client'
-import { INTEGRATION_LIST_ITEMS } from '@/constants/integrations'
+import { INTEGRATION_LIST_ITEMS } from '@/src/constants/integrations'
 import React from 'react'
 import { Card, CardContent, CardDescription } from '../ui/card'
 import Image from 'next/image'
