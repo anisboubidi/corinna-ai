@@ -1,7 +1,7 @@
-import InfoBar from '@/components/infobar'
-import BillingSettings from '@/components/settings/billing-settings'
-import ChangePassword from '@/components/settings/change-password'
-import DarkModetoggle from '@/components/settings/dark-mode'
+import InfoBar from '@/src/components/infobar'
+import BillingSettings from '@/src/components/settings/billing-settings'
+import ChangePassword from '@/src/components/settings/change-password'
+import DarkModetoggle from '@/src/components/settings/dark-mode'
 import React from 'react'
 
 type Props = {}

@@ -6,15 +6,17 @@ import TypeSelectionForm from './type-selection-form'
 import dynamic from 'next/dynamic'
 import { Spinner } from '@/src/components/spinner'
 
+const SpinnerLoader = () => <Spinner />;
+
 const DetailForm = dynamic(() => import('./account-details-form'), {
   ssr: false,
-  loading: Spinner,
-})
+  loading: SpinnerLoader,
+});
 
 const OTPForm = dynamic(() => import('./otp-form'), {
   ssr: false,
-  loading: Spinner,
-})
+  loading: SpinnerLoader,
+});
 
 type Props = {}
 

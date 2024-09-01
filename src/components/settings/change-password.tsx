@@ -1,5 +1,5 @@
 'use client'
-import { useChangePassword } from '@/hooks/settings/use-settings'
+import { useChangePassword } from '@/src/hooks/settings/use-settings'
 import React from 'react'
 import Section from '../section-label'
 import FormGenerator from '../forms/form-generator'

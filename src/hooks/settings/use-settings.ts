@@ -9,12 +9,12 @@ import {
   onUpdateDomain,
   onUpdatePassword,
   onUpdateWelcomeMessage,
-} from '@/actions/settings'
-import { useToast } from '@/components/ui/use-toast'
+} from '@/src/actions/settings'
+import { useToast } from '@/src/components/ui/use-toast'
 import {
   ChangePasswordProps,
   ChangePasswordSchema,
-} from '@/schemas/auth.schema'
+} from '@/src/schemas/auth.schema'
 import {
   AddProductProps,
   AddProductSchema,
@@ -24,7 +24,7 @@ import {
   FilterQuestionsSchema,
   HelpDeskQuestionsProps,
   HelpDeskQuestionsSchema,
-} from '@/schemas/settings.schema'
+} from '@/src/schemas/settings.schema'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { UploadClient } from '@uploadcare/upload-client'
 import { useTheme } from 'next-themes'

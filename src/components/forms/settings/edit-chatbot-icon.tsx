@@ -1,6 +1,6 @@
-import Section from '@/components/section-label'
-import UploadButton from '@/components/upload-button'
-import { BotIcon } from '@/icons/bot-icon'
+import Section from '@/src/components/section-label'
+import UploadButton from '@/src/components/upload-button'
+import { BotIcon } from '@/src/icons/bot-icon'
 
 import Image from 'next/image'
 import React from 'react'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { AccordionContent, AccordionItem, AccordionTrigger, Accordion as ShadcnAccordion } from '@/components/ui/accordion'
+import { AccordionContent, AccordionItem, AccordionTrigger, Accordion as ShadcnAccordion } from '@/src/components/ui/accordion'
 
 type Props = {
   trigger: string
