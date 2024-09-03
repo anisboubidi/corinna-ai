@@ -5,8 +5,11 @@ import { useFormContext } from 'react-hook-form'
 import TypeSelectionForm from './type-selection-form'
 import dynamic from 'next/dynamic'
 import { Spinner } from '@/src/components/spinner'
+<<<<<<< Updated upstream
 
 const SpinnerLoader = () => <Spinner />;
+=======
+>>>>>>> Stashed changes
 
 const DetailForm = dynamic(() => import('./account-details-form'), {
   ssr: false,
