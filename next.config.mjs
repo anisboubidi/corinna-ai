@@ -1,4 +1,18 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    reactStrictMode: false,
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'ucarecdn.com',
+        },
+        {
+          protocol: 'https',
+          hostname: 'wordpress-1324633-4843675.cloudwaysapps.com',
+        },
+      ],
+    },
+  }
+  
+  export default nextConfig
